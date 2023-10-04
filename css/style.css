@@ -1,11 +1,27 @@
-/* CSS files add styling rules to your content */
+/* CSS files add styling rules to your content
 
 body {
     font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
     margin: 2em;
   }
-  
-  h1 {
-    font-style: italic;
-    color: #373fff;
-  }
+ */
+
+body {
+  font-family: monospace;
+  font-size: larger;
+}
+
+ /* #app {
+  display: grid;
+ }
+
+ #title {
+  font-family: monospace;
+  font-size: ;
+
+ }
+
+ #gameGrid {
+
+
+ } */

@@ -22,7 +22,8 @@ this is where state will be updated
 
 
 // Model Functions
-
+// init
+// 
 
 
 
@@ -41,3 +42,17 @@ the reset button
 
 // Controller - routes commands to the model and view parts
 
+
+
+// overall functions to potentially use for the game:
+// init
+// player turns
+// event listener (clicking on the grid)
+    // getting the symbol to appear
+// checking for win
+// checking for draw
+// update the ui 
+// reset the game (attached to the reset button)
+// custom?? symbols?? 
+// game loop: continuously checks for win/lose/draw
+// input validation (make sure players cant make invalid moves)
