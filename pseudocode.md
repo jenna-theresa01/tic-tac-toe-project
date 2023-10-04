@@ -50,9 +50,14 @@ container
 >> grid for the board
 >> 2 symbols to represent the 2 players
 >> toggle between players (and let them know it's their turn)
->> reset button
+>> restart game button
 >> display who wins or if there is a draw
 >> click handler in each tile/square to have the symbols show up
 >> 8 different win conditions: 3 vertical, 3 horizontal, and 2 diagonal
+>>> or draw when there are no more moves left (all spaces filled with no win)
 >> stay within one div in HTML 
->>
+>> title for the game
+
+> IF (big if) i finish early 
+>> have players enter their name (input box)
+>> connect to local storage so game will not end if refreshed??
