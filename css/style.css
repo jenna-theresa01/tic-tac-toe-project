@@ -8,9 +8,23 @@ body {
 
 body {
   font-family: monospace;
-  font-size: larger;
+  /* font-size: larger; */
 }
 
+/* #game-grid {
+  height: 200px;
+  width: 200px;
+} */
+
+.container {
+  width: 50px;
+  height: 50px;
+}
+
+/* #tile0, #tile1, #tile2, #tile3, #tile4, #tile5, #tile6, #tile7, #tile8 {
+  height: 100px;
+  width: 100px;
+} */
  /* #app {
   display: grid;
  }
@@ -20,28 +34,33 @@ body {
   font-size: ;
 
  }
-
+*/
  #gameGrid {
+  display: block;
 
-
- } */
+ } 
 
  
 
 #app {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
   margin: 20px;
   /* gap: 10px; */
+} 
+
+
+
+#restart-btn {
+  border-radius: 12px;
+  width: 100px;
 }
 
 .grid-item {
   border: 1px solid purple;
   padding: 10px;
   text-align: center;
-}
+} 
 
-
+/* 
 #restartBtn {
   color: blueviolet;
 
