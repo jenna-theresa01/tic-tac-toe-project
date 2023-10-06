@@ -50,7 +50,7 @@
 //                 gameGrid.appendChild(col);
 //     }; 
     
-};
+// };
     // return renderBoard
 //    };
     
