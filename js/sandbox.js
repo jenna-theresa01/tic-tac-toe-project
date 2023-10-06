@@ -212,14 +212,14 @@
 // };
 
 // initialize player variables
-let currentPlayer = "Player 1";
+// let currentPlayer = "Player 1";
 
 // start function to toggle between players
-function togglePlayers () {
-    currentPlayer = currentPlayer === "Player 1" ? "Player 2" : "Player 1";
-}
+// function togglePlayers () {
+//     currentPlayer = currentPlayer === "Player 1" ? "Player 2" : "Player 1";
+// }
 
-togglePlayers();
+// togglePlayers();
 
 
 

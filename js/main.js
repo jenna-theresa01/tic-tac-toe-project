@@ -175,6 +175,63 @@ function addElement() {
     restartBtn.id = "restart-btn";
     restartBtn.className = "btn btn-info btn-sm "
     restartBtn.textContent = "Restart Game";
-    restartBtn.addEventListener("click", () => {});
+    restartBtn.addEventListener("click", () => {
+        function clearBoard() { // function to clear the game board
+            // reset the content of each square to an empty state
+            for (let i = 0; i <= 8; i++) {
+                const tile = document.getElementById(`tile-${i}`);
+                tile.textContent = " ";
+            }
+            // reset current player to the first player
+            currentPlayer = "Player 1";
+        }
+        clearBoard();
+    });
     btnDiv.appendChild(restartBtn);
 };
+
+let currentPlayer = "Player 1";
+let currentSymbol = "X"; // initialize "X" for player 1
+
+function switchPlayer() {
+    // switch between players
+    switch (currentPlayer) {
+        case "Player 1":
+            currentPlayer = "Player 2";
+            break;
+        case "Player 2":
+            currentPlayer = "Player 1";
+            break
+    }
+    // switch between the two assigned symbols
+    switch (currentSymbol) {
+        case "X":
+            currentSymbol = "O";
+            break;
+        case "O":
+            currentSymbol = "X";
+            break
+    }
+};
+
+
+// function to handle a tile click event
+function handleTileClick(tileId) {
+    const tile = document.getElementById(tileId);
+
+    // check if a tile is empty before allowing the move
+    if (tile.textContent === "") {
+        tile.textContent = currentSymbol; // set the current symbol 
+        switchPlayer();
+    }
+}
+
+// add click event to each tile
+for (let i = 0; i <= 8; i++) {
+    const tileId = `tile-${i}`;
+    const tile = document.getElementById(tileId);
+
+    tile.addEventListener("click", () => {
+        handleTileClick(tileId);
+    });
+}
