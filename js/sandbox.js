@@ -1,13 +1,13 @@
 //! START SMALL
 
-document.body.onload = addElement;
+// document.body.onload = addElement;
 
 
-function addElement() {
-//     // create and append the title for the game
-    // let mainDiv = document.getElementById("app");
+// function addElement() {
+    // create and append the title for the game
+//     let mainDiv = document.getElementById("app");
 
-//     // create div to assign row for each child div I want separated by a "line"
+    // create div to assign row for each child div I want separated by a "line"
 //     const titleDiv = document.createElement("div");
 //     titleDiv.id = "titleDiv";
 //     titleDiv.className = "row"
@@ -26,13 +26,13 @@ function addElement() {
 //     mainDiv.appendChild(mainGrid);
 
 
-//     // create and append the grid within the mainDiv
+    // create and append the grid within the mainDiv
 //     const gameGrid = document.createElement("div");
 //     gameGrid.id = "game-grid";
 //     gameGrid.className = "col";
 //     mainGrid.appendChild(gameGrid);
 
-// //    function renderBoard () { // start the board and be able to add and remove elements from the board
+//    function renderBoard () { // start the board and be able to add and remove elements from the board
 
 //         for (let i = 0; i < 2; i++){  // create the rows
 //             const row = document.createElement("div");
@@ -50,9 +50,9 @@ function addElement() {
 //                 gameGrid.appendChild(col);
 //     }; 
     
-// };
-//     // return renderBoard
-// //    };
+};
+    // return renderBoard
+//    };
     
     // create the actual grid inside mainDiv
     // const container = document.getElementById("app");
@@ -173,22 +173,22 @@ function addElement() {
 
     // function makeGrid(rows, cols) { // defines the function and gives it 2 parameters "rows" and "cols"
                 
-    //   // retrieves the html element by id and sets it to variable
+      // retrieves the html element by id and sets it to variable
     //     const gridContainer = document.getElementById("app"); // this is placing the grid on the entire document; I want it under the title div element
 
-    //   //  set up nested loop structure by looping through rows and columns
+      //  set up nested loop structure by looping through rows and columns
     //     for (let i = 0; i < rows; i++) {
 
     //         for (let m = 0; m < cols; m++) {
-    //      //    create new element for each grid cell
+         //    create new element for each grid cell
     //             const gridItem = document.createElement("div");
-    //      // give grid item an id (try to get the grid off the total app id div)
-    //             // gridItem.id = "grid"
-    //       //   adds css class for styling
+         // give grid item an id (try to get the grid off the total app id div)
+                // gridItem.id = "grid"
+          //   adds css class for styling
     //             gridItem.className.add("col-4");
-    //      // set text content inside each grid item element (change this for later placement)
+         // set text content inside each grid item element (change this for later placement)
     //             gridItem.textContent = `${"X"},${"O"}`;
-    //     // append the "gridItem" element; this adds the grid container, making it a part of the grid
+        // append the "gridItem" element; this adds the grid container, making it a part of the grid
     //             gridContainer.appendChild(gridItem);
     //         }
     //     }
@@ -202,7 +202,7 @@ function addElement() {
 //     btnDiv.className = "row justify-content-center"
 //     mainDiv.appendChild(btnDiv);
 
-//     // create and append restart game button
+    // create and append restart game button
 //     const restartBtn = document.createElement("button");
 //     restartBtn.id = "restart-btn";
 //     restartBtn.className = "btn btn-info btn-sm "
