@@ -34,4 +34,5 @@ body {
 
 .container {
   flex-shrink: 3;
+  width: 300px;
 }

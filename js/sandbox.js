@@ -227,3 +227,18 @@
 // document.addEventListener("load", init);
 // let gameState = {};
 
+// function for win condition
+/* 
+win condition for each of the following cases:
+0,1,2
+3,4,5
+6,7,8
+0,4,8
+6,4,2
+0,3,6
+1,4,7
+2,5,8
+these need to be in any order, as long as they contain the above identifiers of each tile
+    so a win at 1,4,7 need to also be a win at 7,1,4 (if that makes sense)
+how can I use some and every methods? 
+*/
