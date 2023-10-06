@@ -14,7 +14,7 @@ function addElement() {
     // create div to assign row for each child div I want separated by a "line"
     const title = document.createElement("div");
     title.id = "title";
-    title.className = "text-center";
+    title.className = "justify-content-center text-center";
     title.textContent = "Tic-Tac-Toe";
     mainDiv.appendChild(title);
 
@@ -86,30 +86,8 @@ function addElement() {
 // define player variables
 let player1 = "X"
 let player2 = "O"
-let currentPlayer = player2;
+let currentPlayer = player1;
 let currentSymbol = "X"; // initialize "X" for player 1
-
-function switchPlayer() {
-    // switch between players
-    switch (currentPlayer) {
-        case "X":
-            currentPlayer = player2;
-            break;
-        case "O":
-            currentPlayer = player1;
-            break
-    }
-    // switch between the two assigned symbols
-    switch (currentSymbol) {
-        case "X":
-            currentSymbol = "O";
-            break;
-        case "O":
-            currentSymbol = "X";
-            break
-    }
-};
-
 
 // function to handle a tile click event
 function handleTileClick(tileId) {
@@ -122,6 +100,9 @@ function handleTileClick(tileId) {
     }
 };
 
+const boardState = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+let turns = [];
+
 // define the win combinations
 const winCombo = [
     [0, 1, 2], [3, 4, 5], [6, 7, 8], // row win
@@ -133,6 +114,3 @@ const winCombo = [
 function checkWin () {
 
 };
-
-const boardState = [0, 1, 2, 3, 4, 5, 6, 7, 8];
-let turns = [];

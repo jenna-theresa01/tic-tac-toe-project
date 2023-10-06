@@ -240,5 +240,26 @@ win condition for each of the following cases:
 2,5,8
 these need to be in any order, as long as they contain the above identifiers of each tile
     so a win at 1,4,7 need to also be a win at 7,1,4 (if that makes sense)
-how can I use some and every methods? 
+
 */
+
+// function switchPlayer() {
+    // switch between players
+//     switch (currentPlayer) {
+//         case "X":
+//             currentPlayer = player2;
+//             break;
+//         case "O":
+//             currentPlayer = player1;
+//             break
+//     }
+    // switch between the two assigned symbols
+//     switch (currentSymbol) {
+//         case "X":
+//             currentSymbol = "O";
+//             break;
+//         case "O":
+//             currentSymbol = "X";
+//             break
+//     }
+// };
