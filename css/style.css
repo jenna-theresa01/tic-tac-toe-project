@@ -7,6 +7,7 @@ body {
 
 #app {
   margin: 20px;
+  justify-content: center;
   /* gap: 10px; */
 } 
 
@@ -16,11 +17,6 @@ body {
   margin: 20px;
 }
 
-.grid-item {
-  border: 1px solid purple;
-  padding: 10px;
-  text-align: center;
-} 
 
 .square {
   width: 100px;
@@ -34,4 +30,5 @@ body {
 
 .container {
   flex-shrink: 3;
+  width: 300px;
 }
